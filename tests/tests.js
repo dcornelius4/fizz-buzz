@@ -31,7 +31,7 @@ test('numbers divisible by both 3 and 5', function(assert) {
 
 test('all other numbers', function(assert){
     let result = fizzBuzz(8);
-    assert.equal(result);
+    assert.equal(result, 8);
 }); 
 
 
